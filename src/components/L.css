@@ -1,0 +1,160 @@
+
+body {
+    background-color: white; 
+}
+.box {
+    width: 1370px; /* Adjust width as needed */
+    height: 650px; /* Adjust height as needed */
+    background-color: #f7fdfd; /* Change to your preferred color */
+    box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.5); /* Lower and right shadow */
+    position: absolute; /* Optional: Needed if you plan to position it relative to something */
+    top:15%;
+    left:14%;
+}
+
+.bg {
+    width: 800px;
+    height: auto;
+}
+.bg2 {
+    width: 760px;
+    height: auto;
+    position: absolute;
+    top:14%;
+    left:6%;
+}
+
+.logo {
+    width: 280px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute; /* Position it relative to the body */
+    top: 6%; /* Adjust top position */
+    left: 10%; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the image */
+}
+
+h20 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 20%; 
+    left:67%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:500;
+    font-size: 43px; 
+    color: #393939; 
+}
+h21 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 28%; 
+    left:69.6%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+    font-size: 26px; 
+    color: #393939; 
+}
+
+h23 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 70%; 
+    left:71.3%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:490;
+    font-size: 19px; 
+    color: #393939; 
+}
+
+.signupB {
+    background: none; 
+    border: none; 
+    color: #007fce; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 500;
+    font-size: 19px; 
+    text-decoration: none; 
+    cursor: pointer; 
+    padding: 0; 
+    display: inline; 
+    transition: color 0.3s ease; 
+    position:absolute;
+    top: 70%;
+    left:76.9%;
+}
+.signupB:hover {
+    color: #00a1b6; 
+}
+
+
+#Username {
+    background: #f7fdfd; 
+    border: 1px solid #393939;  
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    border-radius: 12px;
+    font-size: 22px; 
+    color: #393939; 
+    width:330px; 
+    height: 52px;
+    margin-bottom: 15px; /* Spacing below */
+    position: absolute; /* Allows for further positioning if needed */
+    outline: none; /* Removes the blue outline on focus */
+    top:37%;
+    left:64.1%;
+    box-shadow: none; 
+    padding-left: 15px;
+}
+#Username::placeholder {
+    color: #393939; /* Placeholder color */
+    font-style:normal; /* Makes placeholder italic */
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:21px;
+}
+
+#password {
+    background: #f7fdfd; 
+    border: 1px solid #393939;  
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    border-radius: 12px;
+    font-size: 22px; 
+    color: #393939; 
+    width:330px; 
+    height: 52px;
+    margin-bottom: 15px; /* Spacing below */
+    position: absolute; /* Allows for further positioning if needed */
+    outline: none; /* Removes the blue outline on focus */
+    top:48%;
+    left:64.1%;
+    box-shadow: none; 
+    padding-left: 15px;
+}
+#password::placeholder {
+    color: #393939; /* Placeholder color */
+    font-style:normal; /* Makes placeholder italic */
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:21px;
+}
+
+#submit {
+   background-image: linear-gradient(to right, #008be2, #00cbe6);
+   color: white; /* Text color */
+   border:#ffffff; /* Remove border */
+   height: 53px;
+   font-size: 1.5rem; /* Use rem for scalable font size */
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 330; /* Light text weight */
+   cursor: pointer; /* Pointer cursor on hover */
+   border-radius: 12px; /* Rounded corners */
+   width:350px; /* Allow button to resize dynamically */
+   text-align: center; /* Center-align text */
+   transition: all 0.3s ease; /* Smooth transition for hover effects */
+   position:absolute; /* Fix to the screen */
+   top: 60%; /* 20px from the bottom */
+   left: 64.1%;
+}
+
+
+

@@ -1,0 +1,426 @@
+
+/* .home-container  {
+    background-image: url("/greenblue.jpg"); 
+    background-size: cover;
+    background-size: 100% auto; 
+    background-position: top center; 
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+} */
+.image1 {
+    width: 520px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute; /* Position it relative to the body */
+    top: 51%; /* Adjust top position */
+    left: 65%; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the image */
+}
+
+.logo {
+    width: 320px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute; /* Position it relative to the body */
+    top: 6%; /* Adjust top position */
+    left: 13%; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the image */
+ 
+}
+
+.navbar {
+    padding: 0; /* Remove unnecessary padding */
+    position: absolute; /* Navbar is positioned relative to the top of the page */
+    width: 30%; /* Full width of the page */
+    height: 70px;
+    top: 2.5%; /* Place it at the top of the page */
+    left: 53%; /* Align it to the left */
+    z-index: 1000; /* Ensure it stays above other content initially */
+    text-align: center; /* Center the navbar links */
+    /* background-color: #344E41; */
+}
+
+/* Navbar links container */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center links horizontally */
+    align-items: center; /* Align links vertically */
+    height: 100%; /* Occupy full navbar height */
+}
+
+/* Navbar list item styling */
+.navbar li {
+    margin: 0 30px; /* Horizontal spacing between items */
+}
+
+/* Navbar link styling */
+.navbar a {
+    color: #ebebeb; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar a:hover {
+    color: hsl(0, 0%, 100%); /* Change text color on hover */
+}
+
+.home-container h1 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 29%; 
+    left:30%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:550;
+    font-size: 51px; 
+    color: #1ec2df; 
+}
+
+.home-container h2 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 34.5%; 
+    left:34.7%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:550;
+    font-size: 51px; 
+    color: #393939; 
+}
+
+.home-container h3 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 46.3%; 
+    left:34%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:300;
+    font-size: 19px; 
+    color: #393939; 
+}
+
+.start {
+    /* background-image: linear-gradient(to right, #7a00fd, #e54eff);  */
+   background-color: #1ec2df;
+   color: white; /* Text color */
+   border: none; /* Remove border */
+   height: 50px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 1.15rem; /* Use rem for scalable font size */
+   font-weight: 450; /* Light text weight */
+   cursor: pointer; /* Pointer cursor on hover */
+   border-radius: 50px; /* Rounded corners */
+   width:200px; /* Allow button to resize dynamically */
+   max-width: 90%; /* Prevent button from exceeding 90% of container width */
+   text-align: center; /* Center-align text */
+   transition: all 0.1s ease; /* Smooth transition for hover effects */
+   position:absolute; /* Fix to the screen */
+   top: 61%; /* 20px from the bottom */
+   left: 22.3%;
+}
+.start:hover {
+   background-color: #ffffff; /* Hover color */
+   border: 2px solid #1ec2df;
+   color:#1ec2df ;
+}
+
+.login {
+    /* background-image: linear-gradient(to right, #7a00fd, #e54eff);  */
+    background-color: #ffffff;
+    border: 2px solid #009ee8;
+    color:#009ee8 ;
+   height: 50px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 1.2rem; /* Use rem for scalable font size */
+   font-weight: 500; /* Light text weight */
+   cursor: pointer; /* Pointer cursor on hover */
+   border-radius: 50px; /* Rounded corners */
+   width:150px; /* Allow button to resize dynamically */
+   max-width: 90%; /* Prevent button from exceeding 90% of container width */
+   text-align: center; /* Center-align text */
+   transition: all 0.1s ease; /* Smooth transition for hover effects */
+   position:absolute; /* Fix to the screen */
+   top: 3.5%; /* 20px from the bottom */
+   left: 84%;
+}
+.login:hover {
+   background-color: #009ee8;
+   border: 3px solid #ffffff;
+   color:#ffffff ;
+}
+
+.heading {
+    width: 480px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute; /* Position it relative to the body */
+    top: 106%; /* Adjust top position */
+    left: 50%; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the image */
+}
+
+
+.feature-box {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: white; /* Blank background */
+    border: 1px solid #1ec2df; /* Border color */
+    border-radius: 10px; /* Curved edges */
+    padding: 20px; /* Add padding inside the box */
+    display: inline-block; /* Display boxes side by side */
+    text-align: center; /* Center-align text */
+    position: absolute;
+    top:121%;
+    left:22%;
+ }
+
+ .feature-box:hover {
+    box-shadow: 0 2px 7px  #009ee8; /* Deeper shadow on hover */
+    transform: translateY(-5px); /* Slight upward lift */
+ }
+ 
+ .feature-box h4 {
+    margin-top: 40px; /* Remove default margin for headings */
+    margin-bottom: 9px;
+    font-weight: 800;
+    font-size: 1.6rem; /* Adjust heading size */
+    color: #393939; /* Heading color */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .feature-box p {
+   
+    font-size: 1.1rem; /* Adjust paragraph size */
+    color: #393939; /* Paragraph text color */
+    line-height: 1.4; /* Improve readability */
+    font-weight: 320;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .feature-box img {
+    width: 120px;
+    height:auto;
+    margin-top: 23px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+
+
+ .feature-box2 {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: white; /* Blank background */
+    border: 1px solid #1ec2df; /* Border color */
+    border-radius: 10px; /* Curved edges */
+    padding: 20px; /* Add padding inside the box */
+    display: inline-block; /* Display boxes side by side */
+    text-align: center; /* Center-align text */
+    position: absolute;
+    top:121%;
+    left:42%;
+ }
+
+ .feature-box2:hover {
+    box-shadow: 0 2px 7px  #009ee8; /* Deeper shadow on hover */
+    transform: translateY(-5px); /* Slight upward lift */
+ }
+ 
+ .feature-box2 h5 {
+    margin-top: 40px; /* Remove default margin for headings */
+    margin-bottom: 9px;
+    font-weight: 800;
+    font-size: 1.6rem; /* Adjust heading size */
+    color: #393939; /* Heading color */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .feature-box2 p {
+   
+    font-size: 1.1rem; /* Adjust paragraph size */
+    color: #393939; /* Paragraph text color */
+    line-height: 1.4; /* Improve readability */
+    font-weight: 320;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .feature-box2 img {
+    width: 115px;
+    height:auto;
+    margin-top: 23px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+ .feature-box3 {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: white; /* Blank background */
+    border: 1px solid #1ec2df; /* Border color */
+    border-radius: 10px; /* Curved edges */
+    padding: 20px; /* Add padding inside the box */
+    display: inline-block; /* Display boxes side by side */
+    text-align: center; /* Center-align text */
+    position: absolute;
+    top:121%;
+    left:61.7%;
+ }
+ .feature-box3:hover {
+    box-shadow: 0 2px 7px  #009ee8; /* Deeper shadow on hover */
+    transform: translateY(-5px); /* Slight upward lift */
+ }
+ 
+ .feature-box3 h6 {
+    margin-top: 37px; /* Remove default margin for headings */
+    margin-bottom: 9px;
+    font-weight: 800;
+    font-size: 1.6rem; /* Adjust heading size */
+    color: #393939; /* Heading color */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .feature-box3 p {
+   
+    font-size: 1.1rem; /* Adjust paragraph size */
+    color: #393939; /* Paragraph text color */
+    line-height: 1.4; /* Improve readability */
+    font-weight: 320;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .feature-box3 img {
+    width: 97px;
+    height:auto;
+    margin-top: 23px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .women {
+    width: 520px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute; /* Position it relative to the body */
+    top: 197%; /* Adjust top position */
+    left: 66%; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the image */
+}
+
+.home-container h7 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 185%; 
+    left:33%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:550;
+    font-size: 40px; 
+    color: #393939; 
+}
+
+.home-container h8 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 198%; 
+    left:34.5%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:100;
+    font-size: 17px; 
+    color: #393939; 
+}
+
+.men {
+    width: 520px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute; /* Position it relative to the body */
+    top: 254%; /* Adjust top position */
+    left: 36%; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the image */
+}
+
+.home-container h9 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 240%; 
+    left:69%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:550;
+    font-size: 40px; 
+    color: #393939; 
+}
+
+.home-container h10 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 253%; 
+    left:69.6%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:100;
+    font-size: 17px; 
+    color: #393939; 
+}
+
+
+.bottom-section {
+    height: 150px; /* Adjust height as needed */
+    background: linear-gradient(to top, #02bfda, #0085f3); /* Background color */
+    position: absolute; /* Positions it relative to the nearest positioned ancestor */
+    top: 300%; /* Aligns to the bottom of the page */
+    width: 99.60%; /* Full-width section */
+}
+.home-container h11 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 301.5%; 
+    left:27%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:300;
+    font-size: 30px; 
+    color: #ffffff; 
+}
+
+.home-container h12 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 307%; 
+    left:34.5%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:200;
+    font-size: 17px; 
+    color: #ffffff; 
+}
+
+.home-container h13 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 301.5%; 
+    left:61.5%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:300;
+    font-size: 30px; 
+    color: #ffffff; 
+}
+
+.home-container h14 {
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 307%; 
+    left:64.5%; 
+    transform: translateX(-50%); /* Center the element horizontally */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:100;
+    font-size: 20px; 
+    color: #ffffff; 
+}
+
+
+
+
+
+
+
+
+
